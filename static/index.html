@@ -28,7 +28,9 @@
               placeholder="Search or enter a URL"
               type="text"
               autocorrect="off"
-              autocapitalize="none" />
+              autocapitalize="none"
+              onkeyup="this.value = this.value.charAt(0).toLowerCase()+this.value.slice(1);"
+              />
           </form>
         </div>
       </div>
