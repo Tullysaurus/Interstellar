@@ -7,7 +7,9 @@ const config = {
     Hudson: "Cr3scent",
     hudson: "Cr3scent",
     Ella: "dexter",
-    ella: "dexter"
+    ella: "dexter",
+    
+    interstellar: "interstellar"
   },
 };
 
