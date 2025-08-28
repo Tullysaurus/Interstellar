@@ -175,16 +175,10 @@ document.addEventListener("DOMContentLoaded", event => {
 });
 // Splash texts
 const SplashT = [
-  "Over 8 Million Users since 2023",
-  "Fastest growing proxy server",
-  "Made by xBubbo",
-  "Check out discord.gg/interstellar :)",
-  "Thanks for using the site",
-  "Follow us on Tiktok (@useinterstellar)",
-  "Subscribe to us on YouTube (@unblocking)",
-  "Subscribe to my Youtube (@xbubbo)",
-  "Check out the settings page",
-  "Check out our Patreon (https://www.patreon.com/gointerstellar)",
+    "You probably shouldnt be here...",
+    "I dont remember giving you access to this",
+    "Who are you?",
+    "Get outta here!"
 ];
 
 let SplashI = Math.floor(Math.random() * SplashT.length);
@@ -201,19 +195,7 @@ SplashE.addEventListener("click", US);
 // Random URL
 function getRandomUrl() {
   const randomUrls = [
-    "https://kahoot.it",
-    "https://classroom.google.com",
-    "https://drive.google.com",
-    "https://google.com",
-    "https://docs.google.com",
-    "https://slides.google.com",
-    "https://www.nasa.gov",
-    "https://blooket.com",
     "https://clever.com",
-    "https://edpuzzle.com",
-    "https://khanacademy.org",
-    "https://wikipedia.org",
-    "https://dictionary.com",
   ];
   return randomUrls[randRange(0, randomUrls.length)];
 }
